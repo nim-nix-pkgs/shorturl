@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-shorturl-master.flake = false;
+  inputs.src-shorturl-master.ref   = "refs/heads/master";
   inputs.src-shorturl-master.owner = "achesak";
-  inputs.src-shorturl-master.ref   = "master";
   inputs.src-shorturl-master.repo  = "nim-shorturl";
   inputs.src-shorturl-master.type  = "github";
   
